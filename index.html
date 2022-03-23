@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsivo.css" />
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icones-->
+    <script
+      src="https://kit.fontawesome.com/e5b20a88fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Js/index.js" defer></script>
+    <script src="Js/validation.js" defer></script>
+    <script src="Js/DOM.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="texts">
+        <h1>
+          Learntocodeby <br />
+          watching others
+        </h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta non
+          deleniti, maiores perspiciatis eos earum eveniet rerum ducimus
+          dolorum.
+        </p>
+      </section>
+
+      <section class="form-container">
+        <div class="subscribe-message">
+          <strong>Try it free7 days</strong><span>then $20/mo. thereafter</span>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <input type="text" id="firstName" placeholder="First Name" />
+
+            <div class="infos-error">
+              <i class="fa-solid fa-circle-exclamation icon-error"></i>
+              <span class="msg-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input type="text" id="lastName" placeholder="Last Name" />
+
+            <div class="infos-error">
+              <i class="fa-solid fa-circle-exclamation icon-error"></i>
+              <span class="msg-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email" />
+
+            <div class="infos-error">
+              <i class="fa-solid fa-circle-exclamation icon-error"></i>
+              <span class="msg-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input type="password" id="password" placeholder="password" />
+
+            <div class="infos-error">
+              <i class="fa-solid fa-circle-exclamation icon-error"></i>
+              <span class="msg-error"></span>
+            </div>
+          </div>
+
+          <button id="btn-submit">claim your free trial</button>
+
+          <span class="term-message">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms an Services</a>
+          </span>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
